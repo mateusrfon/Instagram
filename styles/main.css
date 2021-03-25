@@ -175,8 +175,74 @@ input[type=pesquisa], select {
     margin-right: 17px;
 }
 
-.content .feed-box .feed-bar {
-    height: 61px;
+.post {
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+}
+
+.vid {
+    width: 100%;
+}
+
+.content .feed-box .post-bottom-icons {
+    height: 38px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e6e6e6;
+}
+
+.margin-left-18px {
+    margin-left: 18px;
+}
+
+.post-icons {
+    height: 20px;
+    margin-right: 18px;
+}
+
+.content .feed-box .post-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.like-profile {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-left: 17px;
+}
+
+.font300-14px-2 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.post-bottom span {
+    margin-left: 5px;
+}
+
+.bottom-bar {
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    height: 54px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.bottom-icons {
+    height: 20px;
+    margin: 0px 17px;
 }
 
 /* SIDE BAR */
@@ -273,6 +339,9 @@ input[type=pesquisa], select {
 }
 .c-babyblue {
     color: #139ef2;
+}
+.black {
+    color: black;
 }
 
 @media (max-width: 935px) {

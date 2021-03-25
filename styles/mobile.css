@@ -20,6 +20,9 @@
     }
     .content .feed-box {
         margin-top: 0px;
-        width: 100%;
+        width: 100vw;
+    }
+    .bottom-bar {
+        display: flex;
     }
 }
