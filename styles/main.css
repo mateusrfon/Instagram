@@ -156,6 +156,7 @@ input[type=pesquisa], select {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 .content .feed-box .post-head .post-profile {
@@ -164,8 +165,14 @@ input[type=pesquisa], select {
     align-items: center;
 }
 
-.content .feed-box img {
-    height: 612px;
+.margin-left-15px {
+    margin-left: 15px;
+}
+
+.eh-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 17px;
 }
 
 .content .feed-box .feed-bar {

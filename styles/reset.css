@@ -132,3 +132,7 @@ table {
 a {
   color: inherit;
 }
+
+* {
+  box-sizing: border-box;
+}
