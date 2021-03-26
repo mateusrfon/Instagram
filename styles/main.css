@@ -147,7 +147,6 @@ input[type=pesquisa], select {
     margin-top: 24px;
     margin-bottom: 60px;
     border: 1px solid #dbdbdb;
-    height: 749px;
 }
 
 .content .feed-box .post-head {
@@ -180,6 +179,20 @@ input[type=pesquisa], select {
     height: 612px;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.post .forward-icon {
+    height: 26px;
+    width: 26px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 9px;
+    top: 306px;
+}
+
+.post img {
+    width: 100%;
 }
 
 .vid {
@@ -243,6 +256,57 @@ input[type=pesquisa], select {
 .bottom-icons {
     height: 20px;
     margin: 0px 17px;
+}
+
+.coments-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coments {
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.coment-icon {
+    height: 10px;
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+
+.coments span{
+    margin-left: 5px;
+}
+
+.addcomment-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.addcomment-box .post-icons {
+    margin-left: 18px;
+}
+
+input[type = coment], select {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.addcomment-box span {
+    margin-right: 18px;
+    margin-left: 18px;
+    color: #b2dffc;
+}
+
+.addcomment-box span:hover {
+    color: #0095f6;
+    transition: 300ms;
+    cursor: pointer;
 }
 
 /* SIDE BAR */
